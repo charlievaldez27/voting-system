@@ -1,0 +1,152 @@
+body{
+	margin: 0;
+	padding:0;
+}
+
+.hovers{
+	background-color: #d39e00;
+	color:  #025baa;
+	border-radius: 5px;
+}
+
+
+.navbar{
+
+  position: fixed;
+    padding:20px 20px 20px 30px;
+  margin: 0;
+  z-index: 8;
+  width: auto;
+  height: 50px;
+  background: #ffc107;
+  color: #025baa;
+  border-bottom: 1px solid #135190;
+}
+
+
+.navbar-dark{
+  width: 100%;
+  height: 80px;
+}
+
+.navbar-dark .navbar-nav .nav-item .nav-link{
+  color: #025baa
+}
+
+.nav-item{
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: uppercase;
+  padding: 5px;
+
+}
+
+.navbar-dark .navbar-nav .nav-item .nav-link:hover{
+  background: #d39e00;
+  color:  #ccc;
+  border-radius: 5px;
+  transition: .8s;
+}
+
+
+#logo {
+	float: left;
+	margin: 0;
+	width: 80px;
+	height: 50px;
+
+}
+
+#header nav ul li a{
+	color: #025baa;
+	padding: 10px;
+}
+
+ul li a{
+	background: #ffc107;
+	padding: 10px;
+}
+
+#navbarSupportedContent{
+	color: black;
+}
+#header nav ul li a{
+	color: #025baa;
+	padding: 10px;
+}
+
+ul li a{
+	background: #ffc107;
+	padding: 10px;
+}
+
+#navbarSupportedContent{
+	color: black;
+}
+.main h1{
+	color: #023367;
+	text-transform: uppercase;
+	padding-left: 50px;
+	font-size: 20px;
+	}
+
+.main{
+	position: relative;
+	background: white;
+	min-height: 100vh;
+	background-size: cover;
+	background-position: center;
+	padding: 150px 0 0px;
+}
+
+#partyinfo{
+	
+	background: transparent;
+	border: 0;
+	border: 1px solid #117a8b;
+	width: 450px; 
+	
+
+}
+
+.schoolyear{
+	color:#858585;
+	border: 1px solid #117a8b;
+	border-radius: 3px;
+	padding: 4px;
+	width: 450px; 
+	text-align: left;
+	background: transparent;
+}
+
+.container1{
+	height: 50vh;
+	width: 650px;
+	max-height: 470px;
+	overflow-y: auto;
+	border-collapse: collapse;
+}
+.borders{
+	border-bottom: 1px solid  #ccc;
+	padding-bottom: 20px;
+}
+
+
+
+table thead th,table tbody td{
+	padding: 6px 15px 6px 15px;
+	text-align: center;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+
+}
+table thead th{
+	background: #0a57a9;
+	color: white;
+	text-transform: uppercase;
+	position: sticky;
+	top: -1px;
+	font-size: 16px;
+	border-radius: 5px;
+	padding-left: 30px;
+}

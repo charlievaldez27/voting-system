@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>STI Voting system</title>
+  <link rel="stylesheet" type="text/css" href="../fontawesome/css/all.css">
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+  <nav class="navbar">
+    <span class="open-slide" >
+      <a href="#" onclick="openSlideMenu()">
+        <svg width="30" height="30">
+            <path d="M0,5 30,5" stroke="#154c89" stroke-width="5"/>
+            <path d="M0,14 30,14" stroke="#154c89" stroke-width="5"/>
+            <path d="M0,23 30,23" stroke="#154c89" stroke-width="5"/>
+        </svg>
+      </a>
+    </span>
+
+     <p style="  margin:19px 0 0 0; font-size: 20px; color: #154c89;"><strong>STI COLLEGE TANAUAN SSC VOTING SYSTEM</strong></p>
+    
+  </nav>
+
+  <div id="side-menu" class="side-nav">
+    <li>
+    <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+   <a href="addvoters.php" class="nav-link"><i class='fas fa-plus-circle' style='font-size:15px;color:#ccc;margin: 7px'></i>Add voters</a>
+   <a href="addparty.php" class="nav-link"><i class='fas fa-plus-circle' style='font-size:15px;color:#ccc;margin: 7px'></i>Add partylist</a>
+   <a href="addschoolyear.php" class="nav-link"><i class='fas fa-plus-circle' style='font-size:15px;color:#ccc;margin: 7px'></i>Add schoolyear</a>
+   <a href="addposition.php" class="nav-link"><i class='fas fa-plus-circle' style='font-size:15px;color:#ccc;margin: 7px'></i>Add Position</a>
+   <a href="addcandidates.php" class="nav-link"><i class='fas fa-plus-circle' style='font-size:15px;color:#ccc;margin: 7px'></i>Add Candidates</a>
+   <a href="viewresults.php" class="nav-link"><i class='fas fa-poll-h' style='font-size:15px;color:#ccc;margin: 7px'></i>View Result</a>
+   <a href="includes/logout.php" class="nav-links" style="border: 1px solid #ccc; width: 100px; height: 20px; margin: 50px 0 0 50px;padding: 5px 20px 10px; " ><i class="fas fa-sign-out-alt" style=' font-size:15px;color:#ccc; margin: 7px; margin-top: px; '></i>Logout</a>
+  
+                </li>
+  </div>
+
+  <div id="main">
+    <h1>Home Page</h1>
+  </div>
+
+  <script>
+    function openSlideMenu(){
+      document.getElementById('side-menu').style.width = '250px';
+      document.getElementById('main').style.marginLeft = '250px';
+    }
+
+    function closeSlideMenu(){
+      document.getElementById('side-menu').style.width = '0';
+      document.getElementById('main').style.marginLeft = '0';
+    }
+  </script>
+</body>
+</html>
